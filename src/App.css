@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+.header {
+  background-color: lightblue;
+  text-align: center;
+  padding: 40px;
+  font-family: Arial;
+}
+ .div{
+  display: flex;
+} 
+
+.nav{
+    background-color: pink;
+    padding:40px;
+    margin-top: 20px;
+    font-family: Arial;
+    text-align: center;
+	  height: 300px;
+    width: 100px;
+  
+}
+
+.mainc{
+  background-color: beige;
+    padding:40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial;
+    text-align: center;
+    width: 100%;
+
+}
+
+.footer {
+  background-color: darkblue;
+  padding: 40px;
+  margin-top: 20px;
+  font-family: Arial;
+  text-align: center;
 }

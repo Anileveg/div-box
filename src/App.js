@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Footer from './JSX/Footer.js'
+import Header from './JSX/Header.js'
+import MainContent from './JSX/MainContent'
+import Sidebar from './JSX/Sidebar'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        {/* {(Header())}
+        {(Sidebar())}
+        {(MainContent())}
+        {(Footer())} */}
+
+        <Header />
+        <div className='div'>
+        <Sidebar />
+        <MainContent />
+        </div>
+        <Footer />
+
       </header>
+        
+      
     </div>
   );
 }
